@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-home',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  public isSearchbarOpend = false;
+  constructor(public navCtrl:NavController){
+
+  }
+  onSearch(event){
+    console.log(event.target.value);
+  }
 }

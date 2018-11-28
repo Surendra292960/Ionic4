@@ -7,6 +7,11 @@
         </ion-toolbar>
       </ion-header>
       <ion-content>
+      <ion-card color="dark" text-center>
+          <img src="assets/icon/favicon.png"/>
+          <h1>Ionic App</h1>
+          <p>Version-4.4.0</p>
+      </ion-card>
         <ion-list>
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages">
             <ion-item [routerDirection]="'root'" [routerLink]="[p.url]">

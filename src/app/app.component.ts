@@ -19,6 +19,46 @@ export class AppComponent {
       title: 'List',
       url: '/list',
       icon: 'list'
+    },
+    {
+      title: 'Login',
+      url: '/Login',
+      icon: 'person'
+    },
+    {
+      title: 'Register',
+      url: '/Register',
+      icon: 'person'
+    },
+    {
+      title: 'Tickets',
+      url: '/Tickets',
+      icon: 'person'
+    },
+    {
+      title: 'Tabs',
+      url: '/tabs',
+      icon: 'person'
+    },
+    {
+      title: 'People',
+      url: '/people',
+      icon: 'person'
+    },
+    {
+      title: 'Films',
+      url: '/films',
+      icon: 'person'
+    },
+    {
+      title: 'Planets',
+      url: '/planets',
+      icon: 'person'
+    },
+    {
+      title: 'FilmDetail',
+      url: '/filmDetails',
+      icon: 'person'
     }
   ];
 
